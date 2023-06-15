@@ -1,0 +1,21 @@
+{
+    "loadcell": {
+        "port":"/dev/tty.usbmodem141201",
+        "baudrate":115200,
+        "force limit":200,
+        "probing speed":1
+    },
+    "printer": {
+        "port":"/dev/tty.usbserial-14110",
+        "baudrate":115200,
+        "home":{"x":110, "y":130, "z":30}
+    },
+    "logging": {
+        "relativeDirectory":"../data/",
+        "expSetName":"Test"
+    },
+    "sensor": {
+        "port":"/dev/tty.usbmodem141301",
+        "baudrate":115200
+    }
+}
